@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-    <head>
+        <head>
+                <!-- Google tag (gtag.js) -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-BT935RZPZS"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+
+                    gtag('config', 'G-BT935RZPZS');
+                </script>
         {{ partial "head/metadata.html" . }}
         {{ if .Site.Params.plausible }}{{ partial "head/plausible.html" . }}{{ end }}
         {{ partial "head/openGraph.html" . }}
