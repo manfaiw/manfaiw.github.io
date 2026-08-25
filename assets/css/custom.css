@@ -1,0 +1,62 @@
+#publications .markdown.has-text-centered {
+  text-align: left !important;
+}
+
+#about .markdown.has-text-centered {
+  text-align: justify !important;
+}
+
+#teaching .markdown.has-text-centered {
+  text-align: left !important;
+}
+
+#work .markdown.has-text-centered {
+  text-align: left !important;
+}
+
+
+:root {
+  --primary: #B33791;
+}
+
+/* Fallback in case theme uses hardcoded #00b8d4 */
+* {
+  color: inherit;
+}
+
+#navMenu a {
+  color: #4A4A4A !important;
+}
+a,
+a:hover,
+a:visited,
+.button,
+.has-text-primary,
+input:focus,
+textarea:focus,
+select:focus,
+.section-title::after,
+.icon {
+  color: #B33791 !important;
+  border-color: #B33791 !important;
+}
+
+.button,
+.button.is-primary {
+  background-color: #B33791 !important;
+  border-color: #B33791 !important;
+}
+
+.button:hover,
+.button.is-primary:hover {
+  background-color: #a02c7d !important;
+  border-color: #a02c7d !important;
+}
+
+#projects .card-content .fa-xs{
+  margin-top: 10px;
+}
+
+#projects .modal-card .fa-xs{
+  display: none;
+}

@@ -1,0 +1,27 @@
+baseURL = "https://manfaiw.github.io/"
+languageCode = "en-us"
+title = "Man Fai Wong's Homepage"
+theme = "introduction"
+
+[params]
+  name = "Man Fai Wong, PhD"
+  description = "Machine Learning Engineer and Researcher"
+  email = "mfwong1223@gmail.com"
+  customCSS = ["css/custom.css"]
+  googleAnalytics = "G-688CZGZK3E"
+[[params.social]]
+    url   = "https://www.linkedin.com/in/manfaiwong"
+    icon  = "linkedin-in"
+    icon_pack = "fab"
+[[params.social]]
+    url = "mailto:mfwong1223@email.com"
+    icon = "paper-plane"
+    icon_pack = "fas"
+[[params.social]]
+    url   = "https://scholar.google.com/citations?user=O-2toaQAAAAJ"
+    icon  = "graduation-cap"
+    icon_pack = "fas"
+[[params.social]]
+    url = "https://github.com/manfaiw"
+    icon = "github"
+    icon_pack = "fab"
